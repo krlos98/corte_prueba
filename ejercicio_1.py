@@ -9,9 +9,9 @@ for i in range(len(matriz_a)):
         if matriz_a[i][j] == 2:
             vector_r[1] += 1
         if matriz_a[i][j] == 3:
-            vector_r[1] += 1
-        if matriz_a[i][j] == 4:
             vector_r[2] += 1
+        if matriz_a[i][j] == 4:
+            vector_r[3] += 1
         if matriz_a[i][j] == 5:
             vector_r[4] += 1
         if matriz_a[i][j] == 6:
